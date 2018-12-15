@@ -55,6 +55,20 @@ public class ForLoopGauntlet {
 			}
 			System.out.println();
 		}
-	}
+		//nested for loop #3
+		for (int m = 0; m < 10; m++) {
+			for (int n = 1; n <= 10; n++) {
+				System.out.print(10*m+n + " ");
+			}
+			System.out.println("");
+		}
+		//nested for loop #4
+		for (int o = 5; o >= 0; o--) {
+			for (int p = o; p <= 5 ; p++) {
+				System.out.print("* ");
+			}
+			System.out.println("");
+		}
+			}
 	
 }
